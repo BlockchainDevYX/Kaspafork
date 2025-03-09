@@ -327,8 +327,8 @@ impl Params {
     #[must_use]
     pub fn bps(&self) -> ForkedParam<u64> {
         ForkedParam::new(
-            1000 / self.prior_target_time_per_block,
-            1000 / self.crescendo.target_time_per_block,
+            15000 / self.prior_target_time_per_block,
+            15000 / self.crescendo.target_time_per_block,
             self.crescendo_activation,
         )
     }
@@ -526,16 +526,16 @@ pub const MAINNET_PARAMS: Params = Params {
     genesis: GENESIS,
     prior_ghostdag_k: LEGACY_DEFAULT_GHOSTDAG_K,
     timestamp_deviation_tolerance: TIMESTAMP_DEVIATION_TOLERANCE,
-    prior_target_time_per_block: 1000,
+    prior_target_time_per_block: 15000,
     max_difficulty_target: MAX_DIFFICULTY_TARGET,
     max_difficulty_target_f64: MAX_DIFFICULTY_TARGET_AS_F64,
-    prior_difficulty_window_size: LEGACY_DIFFICULTY_WINDOW_SIZE,
+    prior_difficulty_window_size: LEGACY_DIFFICULTY_WINDOW_SIZE +250 ,
     min_difficulty_window_size: MIN_DIFFICULTY_WINDOW_SIZE,
     prior_max_block_parents: 10,
     prior_mergeset_size_limit: (LEGACY_DEFAULT_GHOSTDAG_K as u64) * 10,
-    prior_merge_depth: 3600,
-    prior_finality_depth: 86400,
-    prior_pruning_depth: 185798,
+    prior_merge_depth: 54000,
+    prior_finality_depth: 1296000,
+    prior_pruning_depth: 185798*15,
     coinbase_payload_script_public_key_max_len: 150,
     max_coinbase_payload_len: 204,
 
@@ -691,7 +691,7 @@ pub const DEVNET_PARAMS: Params = Params {
     prior_target_time_per_block: 1000,
     max_difficulty_target: MAX_DIFFICULTY_TARGET,
     max_difficulty_target_f64: MAX_DIFFICULTY_TARGET_AS_F64,
-    prior_difficulty_window_size: LEGACY_DIFFICULTY_WINDOW_SIZE,
+    prior_difficulty_window_size: LEGACY_DIFFICULTY_WINDOW_SIZE +250 ,
     min_difficulty_window_size: MIN_DIFFICULTY_WINDOW_SIZE,
     prior_max_block_parents: 10,
     prior_mergeset_size_limit: (LEGACY_DEFAULT_GHOSTDAG_K as u64) * 10,
@@ -724,8 +724,8 @@ pub const DEVNET_PARAMS: Params = Params {
     // The network was down for three days shortly after launch
     // Three days in seconds = 3 * 24 * 60 * 60 = 259200
     deflationary_phase_daa_score: 15778800 - 259200,
-    pre_deflationary_phase_base_subsidy: 50000000000,
-    prior_coinbase_maturity: 100,
+    pre_deflationary_phase_base_subsidy:12000000000,
+    prior_coinbase_maturity: 50,
     skip_proof_of_work: false,
     max_block_level: 250,
     pruning_proof_m: 1000,
