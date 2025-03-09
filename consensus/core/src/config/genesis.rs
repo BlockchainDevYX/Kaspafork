@@ -126,9 +126,9 @@ pub const TESTNET_GENESIS: GenesisBlock = GenesisBlock {
         0x45, 0x1c, 0x74, 0x3c, 0x22, 0xd5, 0xe9, 0x11, 0x72, 0x0c, 0x2a,
     ]),
     utxo_commitment: EMPTY_MUHASH,
-    timestamp: 0x17c5f62fbb6,
-    bits: 0x1e7fffff,
-    nonce: 0x14582,
+    timestamp: 0x67cfeb0b,
+    bits: 0x1e00ffff,
+    nonce: 0x000000,
     daa_score: 0,
     #[rustfmt::skip]
     coinbase_payload: &[
