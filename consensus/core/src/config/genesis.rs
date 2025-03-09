@@ -176,9 +176,9 @@ pub const SIMNET_GENESIS: GenesisBlock = GenesisBlock {
         0xbb, 0xb6, 0x86, 0x56, 0x4a, 0xd7, 0xfd, 0x56, 0x85, 0x7c, 0x1b,
     ]),
     utxo_commitment: EMPTY_MUHASH,
-    timestamp: 0x17c5f62fbb6,
-    bits: 0x207fffff,
-    nonce: 0x2,
+    timestamp:1741522165000,
+    bits:0x1e00ffff,
+    nonce:0x000000,
     daa_score: 0,
     #[rustfmt::skip]
     coinbase_payload: &[
