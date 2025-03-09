@@ -81,7 +81,7 @@ pub const GENESIS: GenesisBlock = GenesisBlock {
     ]),
     timestamp: 1741522165000,
     bits: 0x1e00ffff, 
-    nonce: 0x000000,
+    nonce: 0x00000,
     daa_score: 1312860, // Checkpoint DAA score
     #[rustfmt::skip]
     coinbase_payload: &[
