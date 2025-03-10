@@ -11,8 +11,8 @@ repository.workspace = true
 
 [features]
 wasm32-sdk = [
-    "kaspa-consensus-client/wasm32-sdk",
-    "kaspa-consensus-wasm/wasm32-sdk"
+    "CLD-consensus-client/wasm32-sdk",
+    "CLD-consensus-wasm/wasm32-sdk"
 ]
 
 [dependencies]
