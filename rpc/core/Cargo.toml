@@ -16,20 +16,20 @@ wasm32-sdk = [
 ]
 
 [dependencies]
-kaspa-addresses.workspace = true
-kaspa-consensus-core.workspace = true
-kaspa-consensus-client.workspace = true
-kaspa-consensus-notify.workspace = true
-kaspa-consensus-wasm.workspace = true
-kaspa-core.workspace = true
-kaspa-hashes.workspace = true
-kaspa-index-core.workspace = true
-kaspa-math.workspace = true
-kaspa-mining-errors.workspace = true
-kaspa-notify.workspace = true
-kaspa-txscript.workspace = true
-kaspa-utils.workspace = true
-kaspa-rpc-macros.workspace = true
+CLD-addresses.workspace = true
+CLD-consensus-core.workspace = true
+CLD-consensus-client.workspace = true
+CLD-consensus-notify.workspace = true
+CLD-consensus-wasm.workspace = true
+CLD-core.workspace = true
+CLD-hashes.workspace = true
+CLD-index-core.workspace = true
+CLD-math.workspace = true
+CLD-mining-errors.workspace = true
+CLD-notify.workspace = true
+CLD-txscript.workspace = true
+CLD-utils.workspace = true
+CLD-rpc-macros.workspace = true
 
 async-channel.workspace = true
 async-trait.workspace = true
