@@ -1,6 +1,6 @@
 [package]
-name = "kaspa-rpc-core"
-description = "Kaspa RPC core"
+name = "CLD-rpc-core"
+description = "CLD RPC core"
 rust-version.workspace = true
 version.workspace = true
 edition.workspace = true
