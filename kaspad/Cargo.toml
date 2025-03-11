@@ -11,7 +11,7 @@ license.workspace = true
 repository.workspace = true
 
 [lib]
-name = "kaspad_lib"
+name = "CLD_lib"
 crate-type = ["cdylib", "lib"]
 
 [dependencies]
