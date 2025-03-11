@@ -1,7 +1,7 @@
 [package]
-name = "kaspa-wallet-core"
-description = "Kaspa wallet library"
-keywords = ["kaspa", "wallet"]
+name = "CLD-wallet-core"
+description = "CLD wallet library"
+keywords = ["CLD", "wallet"]
 rust-version.workspace = true
 version.workspace = true
 edition.workspace = true
@@ -16,11 +16,11 @@ wasm32-keygen = [
     # "kaspa-consensus-wasm/wasm32-types",
 ]
 wasm32-core = [
-    "kaspa-consensus-wasm/wasm32-sdk",
-    "kaspa-consensus-core/wasm32-sdk",
-    "kaspa-wrpc-client/wasm32-sdk",
-    "kaspa-wrpc-wasm/wasm32-sdk",
-    "kaspa-wasm-core/wasm32-sdk",
+    "CLD-consensus-wasm/wasm32-sdk",
+    "CLD-consensus-core/wasm32-sdk",
+    "CLD-wrpc-client/wasm32-sdk",
+    "CLD-wrpc-wasm/wasm32-sdk",
+    "CLD-wasm-core/wasm32-sdk",
 ]
 wasm32-sdk = [
     "wasm32-core"
