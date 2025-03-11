@@ -1,5 +1,5 @@
 [package]
-name = "kaspa-metrics-core"
+name = "CLD-metrics-core"
 description = "Tools for collecting and reporting Kaspa p2p node metrics"
 rust-version.workspace = true
 version.workspace = true
