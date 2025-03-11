@@ -1,6 +1,6 @@
 [package]
-name = "kaspa-wasm"
-description = "KASPA WASM bindings"
+name = "CLD-wasm"
+description = "CLD WASM bindings"
 rust-version.workspace = true
 version.workspace = true
 edition.workspace = true
@@ -40,20 +40,20 @@ workflow-wasm.workspace = true
 
 [features] 
 wasm32-sdk = [
-    "kaspa-wallet-core/wasm32-sdk",
-    "kaspa-pow/wasm32-sdk",
-    "kaspa-txscript/wasm32-sdk",
+    "CLD-wallet-core/wasm32-sdk",
+    "CLD-pow/wasm32-sdk",
+    "CLD-txscript/wasm32-sdk",
 ]
 wasm32-core = [
-    "kaspa-wallet-core/wasm32-core",
-    "kaspa-pow/wasm32-sdk",
-    "kaspa-txscript/wasm32-sdk",
+    "CLD-wallet-core/wasm32-core",
+    "CLD-pow/wasm32-sdk",
+    "CLD-txscript/wasm32-sdk",
 ]
 wasm32-rpc = [
-    "kaspa-consensus-core/wasm32-sdk",
-    "kaspa-consensus-wasm/wasm32-sdk",
-    "kaspa-wrpc-client/wasm32-sdk",
-    "kaspa-wrpc-wasm/wasm32-sdk",
+    "CLD-consensus-core/wasm32-sdk",
+    "CLD-consensus-wasm/wasm32-sdk",
+    "CLD-wrpc-client/wasm32-sdk",
+    "CLD-wrpc-wasm/wasm32-sdk",
 ]
 wasm32-keygen = []
 default = []
