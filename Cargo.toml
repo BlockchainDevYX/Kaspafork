@@ -133,8 +133,8 @@ CLD-wrpc-proxy = { version = "0.17.0", path = "rpc/wrpc/proxy" }
 CLD-wrpc-server = { version = "0.17.0", path = "rpc/wrpc/server" }
 CLD-wrpc-wasm = { version = "0.17.0", path = "rpc/wrpc/wasm" }
 CLD-wrpc-example-subscriber = { version = "0.17.0", path = "rpc/wrpc/examples/subscriber" }
-kaspad= { version = "0.17.0", path = "kaspad" }
-kaspa-alloc = { version = "0.17.0", path = "utils/alloc" }
+CLD= { version = "0.17.0", path = "kaspad" }
+CLD-alloc = { version = "0.17.0", path = "utils/alloc" }
 
 # external
 aes = "0.8.3"
